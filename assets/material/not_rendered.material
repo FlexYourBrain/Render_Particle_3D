@@ -1,0 +1,9 @@
+name: "Icons"
+tags: "icons"
+vertex_program: "/assets/material/not_rendered.vp"
+fragment_program: "/assets/material/not_rendered.fp"
+vertex_space: VERTEX_SPACE_WORLD
+vertex_constants {
+  name: "view_proj"
+  type: CONSTANT_TYPE_VIEWPROJ
+}

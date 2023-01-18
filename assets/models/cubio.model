@@ -1,0 +1,7 @@
+mesh: "/assets/models/cubio.glb"
+material: "/assets/material/Basic3d.material"
+textures: "/builtins/assets/images/logo/logo_blue_256.png"
+skeleton: ""
+animations: ""
+default_animation: ""
+name: "unnamed"

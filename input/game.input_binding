@@ -1,0 +1,20 @@
+key_trigger {
+  input: KEY_1
+  action: "one"
+}
+key_trigger {
+  input: KEY_2
+  action: "two"
+}
+key_trigger {
+  input: KEY_3
+  action: "three"
+}
+key_trigger {
+  input: KEY_4
+  action: "four"
+}
+key_trigger {
+  input: KEY_SPACE
+  action: "space"
+}

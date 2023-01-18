@@ -1,0 +1,48 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /main/main.renderc
+
+[script]
+shared_state = 1
+
+[display]
+width = 1900
+height = 1020
+vsync = 0
+samples = 6
+
+[android]
+input_method = HiddenInputField
+package = com.defold.example.basic3d
+
+[project]
+dependencies = 
+title = Rendering particles in 3D space
+compress_archive = 0
+developer = Agustin R.
+version = 0.1
+
+[physics]
+type = 3D
+
+[osx]
+bundle_identifier = com.defold.example.basic3d
+
+[ios]
+bundle_identifier = com.defold.example.basic3d
+
+[input]
+use_accelerometer = 0
+
+[graphics]
+default_texture_min_filter = linear
+default_texture_mag_filter = linear
+verify_graphics_calls = 1
+max_draw_calls = 256
+
+[sprite]
+subpixels = 0
+
+[native_extension]
+app_manifest = /testing.appmanifest
+
